@@ -1,0 +1,144 @@
+/* Work Sans */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Work+Sans:wght@400;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header styles */
+
+.text-primary {
+    color: orange;
+}
+
+
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 150px 20px;
+
+
+}
+
+
+/* header section  */
+.nev-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nev-bar>ul {
+    display: flex;
+    list-style: none;
+    margin-right: 40px;
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 10px 20px;
+}
+
+nav li {
+    display: flex;
+    list-style: none;
+    margin-right: 40px;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.header-contaient {
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.header-disctiotion {
+    color: #727272;
+    font-size: 16px;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #d17803;
+    width: 200px;
+    height: 64px;
+    color: aliceblue;
+    padding: 20px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 0;
+}
+
+.header img {
+    margin-top: 40px;
+    width: 95%;
+}
+
+
+
+.ditails-contain{
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(219, 240, 240);
+    padding-top: 30px;
+    border: 30px 20px;
+
+}
+.ditails-contain img{
+    width: 600px;
+    margin: 30px;
+    
+}
+
+/* maximum phn respones */
+/* response setion  */
+
+@media screen and (max-width:575px) {
+    header {
+        border: 20px 20px;
+    }
+
+
+    .nav-barr {
+        text-align: center;
+    }
+
+    .nav-title {
+        font-size: 2.8rem;
+        font-weight: 700;
+        color: #131313;
+        align-items: center;
+    }
+
+    .header-contaient,
+    .header-title,
+    .header-disctiotion,
+    .header img {
+        flex-direction: column;
+    }
+
+    .login {
+
+        flex-direction: column;
+        color: #d17803;
+    }
+
+    header {
+        background: rgba(255, 144, 14, 0.10);
+        padding: 10px;
+        margin: 10px;
+
+    }
+    .ditails-contain img{
+        width: 350px;
+        margin: 30px 20px;
+        
+    }
+
+}
+
+/* tablet or ipad response section  */
+@media screen and (max-width:576px) and (min-width: 992px) {}
